@@ -1,0 +1,4 @@
+FileOpenedAction 1474457620992 BowlingGame.java 623 4 1 0
+RefactoringAction 1474457858338 Frame.java ADD int sc FIELD
+RefactoringAction 1474457861850 Frame.java RENAME sc=>int scorePoints FIELD
+EditAction 1474457947725 BowlingGame.java 623 4 1 0
