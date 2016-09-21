@@ -64,3 +64,7 @@ UnitTestCaseAction 1474458743644 TestBowling.java OK
 UnitTestSessionAction 1474458743645 TestBowling.java OK
 EditAction 1474458777243 BowlingGame.java 622 4 2 0
 EditAction 1474458787473 TestBowling.java 246 1 2 1
+RefactoringAction 1474458912024 TestBowling.java ADD void test_firstFrameNoPins()/2 METHOD
+RefactoringAction 1474458916036 TestBowling.java RENAME test_firstFrameNoPins()/2=>void test_all() METHOD
+RefactoringAction 1474458922049 TestBowling.java RENAME test_all()=>void test_allFramesNoPoints() METHOD
+EditAction 1474458940490 TestBowling.java 425 2 2 1
