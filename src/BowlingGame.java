@@ -31,6 +31,7 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		return 0;
+		
+		return score;
 	}
 }

@@ -104,3 +104,6 @@ EditAction 1474459518718 TestBowling.java 502 2 5 2
 EditAction 1474459546745 BowlingGame.java 682 5 4 0
 RefactoringAction 1474459590177 Frame.java RENAME scorePoints=>int frameScore FIELD
 EditAction 1474459590886 Frame.java 727 6 8 0
+CompilationAction 1474459590988 Frame.java
+CompilationAction 1474459598287 Frame.java
+EditAction 1474459626599 BowlingGame.java 690 5 4 0
