@@ -404,3 +404,6 @@ RefactoringAction 1474463502202 TestBowling.java ADD Class<BowlingException> Bow
 RefactoringAction 1474463504964 TestBowling.java REMOVE BowlingException FIELD
 RefactoringAction 1474463513994 TestBowling.java REMOVE exception FIELD
 EditAction 1474463514475 TestBowling.java 2747 10 34 10
+UnitTestCaseAction 1474463516492 TestBowling.java FAIL
+UnitTestSessionAction 1474463516493 TestBowling.java FAIL
+EditAction 1474463534653 BowlingGame.java 900 5 4 0
