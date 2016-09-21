@@ -195,3 +195,5 @@ CompilationAction 1474461148634 Frame.java
 RefactoringAction 1474461176076 Frame.java ADD int spareScore() METHOD
 RefactoringAction 1474461198609 Frame.java ADD int spareScore FIELD
 EditAction 1474461199739 Frame.java 872 7 11 0
+RefactoringAction 1474461295628 Frame.java REMOVE spareScore() METHOD
+EditAction 1474461297954 Frame.java 817 6 10 0

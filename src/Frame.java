@@ -23,10 +23,6 @@ public class Frame {
 		return frameScore;
 	}
 	
-	public int spareScore(){
-		return spareScore;
-	}
-
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		if (getFirstThrow() == 10)
