@@ -413,3 +413,8 @@ EditAction 1474463546799 BowlingGame.java 1034 5 4 0
 RefactoringAction 1474463564435 Frame.java REMOVE spareScore FIELD
 RefactoringAction 1474463564436 Frame.java REMOVE frameScore FIELD
 EditAction 1474463619122 BowlingGame.java 1080 5 4 0
+UnitTestCaseAction 1474463620533 TestBowling.java FAIL
+UnitTestSessionAction 1474463620533 TestBowling.java FAIL
+UnitTestCaseAction 1474463623971 TestBowling.java FAIL
+UnitTestSessionAction 1474463623971 TestBowling.java FAIL
+EditAction 1474463631328 BowlingGame.java 1034 5 4 0
