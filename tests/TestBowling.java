@@ -95,18 +95,10 @@ public class TestBowling {
 			Frame Frame = new Frame(10,0);
 			game.addFrame(Frame);
 		}
-		Frame LastFrame = new Frame(1,0);
-		game.addFrame(LastFrame);
-		Frame LastFrame1 = new Frame(1,0);
-		game.addFrame(LastFrame1);
-		Frame LastFrame2 = new Frame(1,0);
-		game.addFrame(LastFrame2);
-		Frame LastFrame3 = new Frame(1,0);
-		game.addFrame(LastFrame3);
-		Frame LastFrame4 = new Frame(1,0);
-		game.addFrame(LastFrame4);
-		Frame LastFrame5 = new Frame(1,0);
-		game.addFrame(LastFrame5);
+		for (int k=0; k<9; k++) {
+			Frame Frame = new Frame(1,0);
+			game.addFrame(Frame);
+		}
 		assertEquals(98, game.score());
 	}
 
