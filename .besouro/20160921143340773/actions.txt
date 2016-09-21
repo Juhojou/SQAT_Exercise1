@@ -148,3 +148,6 @@ RefactoringAction 1474460080534 TestBowling.java RENAME test_gameGetsTenPoin()=>
 RefactoringAction 1474460081548 TestBowling.java RENAME test_allFrames()=>void test_allFramesGot() METHOD
 RefactoringAction 1474460084560 TestBowling.java RENAME test_allFramesGot()=>void test_allFramesGotOnePoint() METHOD
 EditAction 1474460085634 TestBowling.java 1033 4 11 4
+UnitTestCaseAction 1474460086591 TestBowling.java OK
+UnitTestSessionAction 1474460086591 TestBowling.java OK
+EditAction 1474460090300 TestBowling.java 1033 4 11 4

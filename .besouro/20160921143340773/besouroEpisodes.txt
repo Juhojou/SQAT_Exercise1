@@ -50,3 +50,5 @@
 1474459894153 test-last 1 380 false
 1474459894154 test-last 1 380 false
 1474459894155 test-last 1 380 false
+1474460086591 test-addition 1 157 true
+1474460086592 test-addition 1 157 true

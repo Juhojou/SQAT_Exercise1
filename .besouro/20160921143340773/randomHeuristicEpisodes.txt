@@ -5,3 +5,4 @@
 1474458743645 regression 2 53 false
 1474459509240 test-first 2 731 true
 1474459894144 test-last 1 380 false
+1474460086591 test-addition 1 157 true
