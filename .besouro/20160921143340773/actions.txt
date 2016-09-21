@@ -427,3 +427,8 @@ UnitTestCaseAction 1474463714039 TestBowling.java FAIL
 UnitTestSessionAction 1474463714039 TestBowling.test_asd FAIL
 RefactoringAction 1474463743689 TestBowling.java REMOVE test_asd() METHOD
 EditAction 1474463744354 TestBowling.java 2698 10 34 10
+UnitTestCaseAction 1474463745430 TestBowling.java FAIL
+UnitTestSessionAction 1474463745430 TestBowling.java FAIL
+UnitTestCaseAction 1474463761378 TestBowling.java FAIL
+UnitTestSessionAction 1474463761378 TestBowling.java FAIL
+EditAction 1474463797759 Frame.java 700 6 7 0
