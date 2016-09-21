@@ -62,7 +62,7 @@ public class TestBowling {
 			Frame Frame = new Frame(1,0);
 			game.addFrame(Frame);
 		}
-		assertEquals(21, game.score());
+		assertEquals(20, game.score());
 	}
 
 }
