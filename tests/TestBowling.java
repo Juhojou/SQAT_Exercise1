@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test (expected =BowlingException.class)
+	@Test
 	public void test_firstFrameNoPins() {
 		Frame frame = new Frame(0,0);
 		assertEquals(0, frame.score());
