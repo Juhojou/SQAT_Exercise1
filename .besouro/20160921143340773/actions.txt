@@ -478,3 +478,9 @@ EditAction 1474464056098 BowlingGame.java 1046 5 4 0
 EditAction 1474464063060 BowlingGame.java 1058 5 4 0
 EditAction 1474464070391 BowlingGame.java 1046 5 4 0
 EditAction 1474464076830 BowlingGame.java 1034 5 4 0
+UnitTestCaseAction 1474464077995 TestBowling.java FAIL
+UnitTestSessionAction 1474464077995 TestBowling.java FAIL
+RefactoringAction 1474464126568 TestBowling.java RENAME test_FirstFourFramesAreStrikeOthersGotOnePoint()=>void test_FirstFourFramesAreStrikeOthersGotN() METHOD
+RefactoringAction 1474464129071 TestBowling.java RENAME test_FirstFourFramesAreStrikeOthersGotN()=>void test_FirstFourFramesAreStrikeOthersGotZero() METHOD
+RefactoringAction 1474464130587 TestBowling.java RENAME test_FirstFourFramesAreStrikeOthersGotZero()=>void test_FirstFourFramesAreStrikeOthersGotZeroPoints() METHOD
+EditAction 1474464130941 TestBowling.java 2855 10 42 10
