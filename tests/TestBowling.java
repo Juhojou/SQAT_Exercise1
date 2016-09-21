@@ -39,8 +39,6 @@ public class TestBowling {
 			game.addFrame(frame);
 		}
 		assertEquals(10, game.score());
-	}
-	
-	
+	}	
 
 }
