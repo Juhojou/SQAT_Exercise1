@@ -229,3 +229,14 @@ EditAction 1474461916742 TestBowling.java 1679 7 20 7
 UnitTestCaseAction 1474461917761 TestBowling.java FAIL
 UnitTestSessionAction 1474461917761 TestBowling.java FAIL
 EditAction 1474461952278 TestBowling.java 1679 7 20 7
+RefactoringAction 1474461960488 TestBowling.java ADD void test_firstFrameIsSpareRestFramesGotOnePoint()/2 METHOD
+RefactoringAction 1474461967012 TestBowling.java RENAME test_firstFrameIsSpareRestFramesGotOnePoint()/2=>void test_() METHOD
+RefactoringAction 1474461968056 TestBowling.java RENAME test_()=>void test_all() METHOD
+RefactoringAction 1474461970069 TestBowling.java RENAME test_all()=>void test_allFrames() METHOD
+RefactoringAction 1474461972581 TestBowling.java RENAME test_allFrames()=>void test_allFramesAreSpare() METHOD
+RefactoringAction 1474461974096 TestBowling.java RENAME test_allFramesAreSpare()=>void test_allFramesAreSpares() METHOD
+RefactoringAction 1474462027146 TestBowling.java RENAME test_allFramesAreSpares()=>void test_allFramesAreSparesExceptLastIs() METHOD
+RefactoringAction 1474462031159 TestBowling.java RENAME test_allFramesAreSparesExceptLastIs()=>void test_allFramesAreSparesExceptLast() METHOD
+RefactoringAction 1474462034176 TestBowling.java RENAME test_allFramesAreSparesExceptLast()=>void test_allFramesAreSparesExceptLastFrameHas() METHOD
+RefactoringAction 1474462040190 TestBowling.java RENAME test_allFramesAreSparesExceptLastFrameHas()=>void test_allFramesAreSparesExceptLastFrameGetOnePoint() METHOD
+EditAction 1474462052468 TestBowling.java 1952 8 23 8
