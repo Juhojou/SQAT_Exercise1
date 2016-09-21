@@ -198,3 +198,6 @@ EditAction 1474461199739 Frame.java 872 7 11 0
 RefactoringAction 1474461295628 Frame.java REMOVE spareScore() METHOD
 EditAction 1474461297954 Frame.java 817 6 10 0
 EditAction 1474461299292 BowlingGame.java 786 5 5 0
+RefactoringAction 1474461304662 BowlingException.java ADD long serialVersionUID FIELD
+RefactoringAction 1474461307041 BowlingException.java REMOVE serialVersionUID FIELD
+EditAction 1474461507584 BowlingGame.java 908 5 4 0
