@@ -19,8 +19,7 @@ public class BowlingGame {
 	}
 	
 	public int amountOfFrames() {
-		int size = frames.size();
-		return size;
+		return frames.size();
 	}
 	
 	// Sets the bonus throws at the end of the game
