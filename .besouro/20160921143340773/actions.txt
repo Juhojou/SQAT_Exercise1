@@ -197,3 +197,4 @@ RefactoringAction 1474461198609 Frame.java ADD int spareScore FIELD
 EditAction 1474461199739 Frame.java 872 7 11 0
 RefactoringAction 1474461295628 Frame.java REMOVE spareScore() METHOD
 EditAction 1474461297954 Frame.java 817 6 10 0
+EditAction 1474461299292 BowlingGame.java 786 5 5 0
