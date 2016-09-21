@@ -104,3 +104,6 @@
 1474462843386 test-addition 2 256 true
 1474462843387 test-addition 2 256 true
 1474462843388 test-addition 1 256 true
+1474462881567 refactoring 1A 26 true
+1474462881568 refactoring 1A 26 true
+1474462890891 regression 1 0 true
