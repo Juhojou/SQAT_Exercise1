@@ -160,3 +160,8 @@ RefactoringAction 1474460115637 TestBowling.java REMOVE test_allFramesGotOnePoin
 EditAction 1474460115695 TestBowling.java 1034 4 11 4
 EditAction 1474460222681 Frame.java 748 6 9 0
 EditAction 1474460274397 Frame.java 767 6 8 0
+CompilationAction 1474460274488 Frame.java
+CompilationAction 1474460274489 Frame.java
+CompilationAction 1474460284231 Frame.java
+CompilationAction 1474460284231 Frame.java
+EditAction 1474460526039 BowlingGame.java 788 5 5 0
