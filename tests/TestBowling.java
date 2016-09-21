@@ -23,12 +23,12 @@ public class TestBowling {
 	
 	@Test
 	public void test_allFramesGotZeroPoints() throws BowlingException{
-		BowlingGame game = new BowlingGame();
+		BowlingGame Game = new BowlingGame();
 		for (int i=0; i<10; i++) {
 			Frame frame = new Frame(0,0);
-			game.addFrame(frame);
+			Game.addFrame(frame);
 		}
-		assertEquals(0, game.score());
+		assertEquals(0, Game.score());
 	}
 	
 	@Test
@@ -56,7 +56,7 @@ public class TestBowling {
 	@Test
 	public void test_firstFrameIsSpareRestFramesGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(5,5);
+		Frame firstrame = new Frame(5,5);
 		game.addFrame(frame);
 		for (int i=0; i<19; i++) {
 			Frame frame1 = new Frame(1,0);
