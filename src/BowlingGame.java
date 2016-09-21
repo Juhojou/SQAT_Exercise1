@@ -4,7 +4,6 @@ import java.util.List;
 //Finish time:
 //ID:
 
-
 public class BowlingGame {
 	
 	private int score;
@@ -27,6 +26,7 @@ public class BowlingGame {
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		
 	}
 	
 	// Returns the game score

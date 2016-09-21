@@ -181,3 +181,8 @@ RefactoringAction 1474460643895 TestBowling.java RENAME test_isFirtsFrame()=>voi
 RefactoringAction 1474460644907 TestBowling.java RENAME test_isFirtsFrameStri()=>void test_isFirtsFrameStrike() METHOD
 EditAction 1474460650449 TestBowling.java 1336 6 15 6
 EditAction 1474460654897 TestBowling.java 1337 6 15 6
+UnitTestCaseAction 1474460656457 TestBowling.java OK
+UnitTestSessionAction 1474460656458 TestBowling.java OK
+UnitTestCaseAction 1474460659351 TestBowling.java OK
+UnitTestSessionAction 1474460659351 TestBowling.java OK
+EditAction 1474460782973 BowlingGame.java 790 5 5 0
