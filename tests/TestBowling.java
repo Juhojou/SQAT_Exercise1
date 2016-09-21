@@ -40,5 +40,7 @@ public class TestBowling {
 		}
 		assertEquals(10, game.score());
 	}
+	
+	
 
 }
