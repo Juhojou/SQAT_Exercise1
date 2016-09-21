@@ -73,7 +73,7 @@ public class TestBowling {
 		}
 		Frame LastFrame = new Frame(1,0);
 		game.addFrame(LastFrame);
-		assertEquals(131, game.score());
+		assertEquals(132, game.score());
 	}
 
 }
