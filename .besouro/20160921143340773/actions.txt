@@ -165,3 +165,11 @@ CompilationAction 1474460274489 Frame.java
 CompilationAction 1474460284231 Frame.java
 CompilationAction 1474460284231 Frame.java
 EditAction 1474460526039 BowlingGame.java 788 5 5 0
+UnitTestCaseAction 1474460557553 TestBowling.java OK
+UnitTestSessionAction 1474460557554 TestBowling.java OK
+RefactoringAction 1474460590697 TestBowling.java ADD void test_firstFrameNoPins()/2 METHOD
+RefactoringAction 1474460613793 TestBowling.java RENAME test_firstFrameNoPins()/2=>void test_isFrist() METHOD
+RefactoringAction 1474460615305 TestBowling.java RENAME test_isFrist()=>void test_is() METHOD
+RefactoringAction 1474460619826 TestBowling.java RENAME test_is()=>void test_isFrame() METHOD
+RefactoringAction 1474460625839 TestBowling.java RENAME test_isFrame()=>void test_isFirtsFrameSpare() METHOD
+EditAction 1474460630822 TestBowling.java 1182 5 13 5

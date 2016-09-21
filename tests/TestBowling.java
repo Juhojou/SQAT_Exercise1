@@ -39,6 +39,11 @@ public class TestBowling {
 			game.addFrame(frame);
 		}
 		assertEquals(10, game.score());
-	}	
+	}
+	@Test
+	public void test_isFirtsFrameSpare() throws BowlingException{
+		Frame frame = new Frame(5,5);
+		assertEquals(true, frame.isSpare());
+	}
 
 }
