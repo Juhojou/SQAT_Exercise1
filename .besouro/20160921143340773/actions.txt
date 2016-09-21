@@ -530,3 +530,4 @@ EditAction 1474464433145 BowlingGame.java 1070 5 5 0
 RefactoringAction 1474464495712 BowlingGame.java ADD void make FIELD
 RefactoringAction 1474464498226 BowlingGame.java RENAME make=>void makeBonus() METHOD
 EditAction 1474464512308 BowlingGame.java 1163 6 6 0
+EditAction 1474464535835 BowlingGame.java 1159 6 6 0
