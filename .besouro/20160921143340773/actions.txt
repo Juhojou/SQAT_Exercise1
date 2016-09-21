@@ -293,3 +293,4 @@ RefactoringAction 1474462587133 TestBowling.java ADD void test_FirstFrameIsStrik
 RefactoringAction 1474462593148 TestBowling.java RENAME test_FirstFrameIsStrikeOthersGotOnePoint()/2=>void test_FirstFourFrameIsStrikeOthersGotOnePoint() METHOD
 RefactoringAction 1474462598661 TestBowling.java RENAME test_FirstFourFrameIsStrikeOthersGotOnePoint()=>void test_FirstFourFramesAreStrikeOthersGotOnePoint() METHOD
 EditAction 1474462671448 TestBowling.java 2706 10 34 10
+EditAction 1474462704528 TestBowling.java 2722 10 34 10

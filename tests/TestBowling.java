@@ -92,10 +92,10 @@ public class TestBowling {
 	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<3; i++) {
-			
-			Frame FirstFrame = new Frame(10,0);
+			Frame Frame = new Frame(10,0);
+			game.addFrame(Frame);
 		}
-		for (int i=0; i<9; i++) {
+		for (int i=0; i<6; i++) {
 			Frame Frame = new Frame(1,0);
 			game.addFrame(Frame);
 		}
