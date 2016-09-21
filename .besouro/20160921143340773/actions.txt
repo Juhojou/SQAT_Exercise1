@@ -266,3 +266,8 @@ EditAction 1474462268843 Frame.java 731 6 7 0
 UnitTestCaseAction 1474462270176 TestBowling.java OK
 UnitTestSessionAction 1474462270176 TestBowling.java OK
 EditAction 1474462285565 BowlingGame.java 895 5 4 0
+UnitTestCaseAction 1474462292171 TestBowling.java OK
+UnitTestSessionAction 1474462292171 TestBowling.java OK
+RefactoringAction 1474462331237 BowlingGame.java ADD void makeBonusFrame() METHOD
+RefactoringAction 1474462350751 BowlingGame.java REMOVE makeBonusFrame() METHOD
+EditAction 1474462351050 BowlingGame.java 895 5 4 0
