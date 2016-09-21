@@ -22,10 +22,16 @@ public class BowlingGame {
 		return frames.size();
 	}
 	
+	public void makeBonus(){
+		Frame LastFrame = frames.get(9);
+		if (LastFrame.isStrike()){
+			frames.add(bonus);
+		}
+	}
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
-		Frame lastFrame = frames.get(9);
+		
 	}
 	
 	// Returns the game score
