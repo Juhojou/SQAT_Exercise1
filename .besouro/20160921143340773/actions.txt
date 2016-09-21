@@ -159,3 +159,4 @@ RefactoringAction 1474460108628 TestBowling.java ADD void test_allFramesGotOnePo
 RefactoringAction 1474460115637 TestBowling.java REMOVE test_allFramesGotOnePoint()/2 METHOD
 EditAction 1474460115695 TestBowling.java 1034 4 11 4
 EditAction 1474460222681 Frame.java 748 6 9 0
+EditAction 1474460274397 Frame.java 767 6 8 0
