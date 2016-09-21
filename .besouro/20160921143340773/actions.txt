@@ -484,3 +484,4 @@ RefactoringAction 1474464126568 TestBowling.java RENAME test_FirstFourFramesAreS
 RefactoringAction 1474464129071 TestBowling.java RENAME test_FirstFourFramesAreStrikeOthersGotN()=>void test_FirstFourFramesAreStrikeOthersGotZero() METHOD
 RefactoringAction 1474464130587 TestBowling.java RENAME test_FirstFourFramesAreStrikeOthersGotZero()=>void test_FirstFourFramesAreStrikeOthersGotZeroPoints() METHOD
 EditAction 1474464130941 TestBowling.java 2855 10 42 10
+EditAction 1474464149341 TestBowling.java 2855 10 42 10
