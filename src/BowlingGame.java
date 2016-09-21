@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-//Finish time:
-//ID:
+//Finish time: 16:35
+//ID: 109
 
 public class BowlingGame {
 	
