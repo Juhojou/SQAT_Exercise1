@@ -26,9 +26,6 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		for (int k=0; k<10; k++){
-			frames.get(k);
-		}
 		return 0;
 	}
 }
