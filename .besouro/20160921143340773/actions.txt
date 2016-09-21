@@ -213,3 +213,6 @@ RefactoringAction 1474461552654 TestBowling.java RENAME test_firstFrameIsSpare()
 RefactoringAction 1474461557167 TestBowling.java RENAME test_firstFrameIsSpareRestAre()=>void test_firstFrameIsSpareRestFramesGot() METHOD
 RefactoringAction 1474461559681 TestBowling.java RENAME test_firstFrameIsSpareRestFramesGot()=>void test_firstFrameIsSpareRestFramesGotOnePoint() METHOD
 EditAction 1474461610908 TestBowling.java 1669 7 20 7
+CompilationAction 1474461611005 TestBowling.java
+CompilationAction 1474461618096 TestBowling.java
+EditAction 1474461626213 TestBowling.java 1671 7 20 7
