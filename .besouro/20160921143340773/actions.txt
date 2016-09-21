@@ -133,3 +133,18 @@ EditAction 1474459788306 TestBowling.java 753 3 8 3
 RefactoringAction 1474459831037 TestBowling.java ADD import org.junit.Before IMPORT
 RefactoringAction 1474459865679 TestBowling.java ADD void beforeEachTest() METHOD
 EditAction 1474459879914 TestBowling.java 872 4 9 3
+UnitTestCaseAction 1474459894144 TestBowling.java OK
+UnitTestSessionAction 1474459894144 TestBowling.java OK
+CompilationAction 1474459928817 TestBowling.java
+CompilationAction 1474459935552 TestBowling.java
+CompilationAction 1474459935722 TestBowling.java
+CompilationAction 1474459939646 TestBowling.java
+RefactoringAction 1474460040937 TestBowling.java REMOVE beforeEachTest() METHOD
+RefactoringAction 1474460057967 TestBowling.java ADD void test_allFramesGotZeroPoints()/2 METHOD
+RefactoringAction 1474460071498 TestBowling.java RENAME test_allFramesGotZeroPoints()/2=>void test_game() METHOD
+RefactoringAction 1474460073509 TestBowling.java RENAME test_game()=>void test_gameGets() METHOD
+RefactoringAction 1474460076021 TestBowling.java RENAME test_gameGets()=>void test_gameGetsTenPoin() METHOD
+RefactoringAction 1474460080534 TestBowling.java RENAME test_gameGetsTenPoin()=>void test_allFrames() METHOD
+RefactoringAction 1474460081548 TestBowling.java RENAME test_allFrames()=>void test_allFramesGot() METHOD
+RefactoringAction 1474460084560 TestBowling.java RENAME test_allFramesGot()=>void test_allFramesGotOnePoint() METHOD
+EditAction 1474460085634 TestBowling.java 1033 4 11 4
