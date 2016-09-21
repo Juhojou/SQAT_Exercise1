@@ -446,3 +446,6 @@ EditAction 1474463836005 Frame.java 701 6 7 0
 UnitTestCaseAction 1474463836988 TestBowling.java FAIL
 UnitTestSessionAction 1474463836988 TestBowling.java FAIL
 EditAction 1474463843376 Frame.java 679 6 7 0
+FileOpenedAction 1474463852889 BowlingGame.java 1034 5 4 0
+RefactoringAction 1474463890842 BowlingGame.java ADD void scoreIfSpare(int, Frame) METHOD
+EditAction 1474463890847 BowlingGame.java 1114 6 5 0
