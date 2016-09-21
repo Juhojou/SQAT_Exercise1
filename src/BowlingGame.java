@@ -36,6 +36,7 @@ public class BowlingGame {
 			if (frame.isSpare() == true){
 				Frame nextFrame = frames.get(k+1);
 				score = score + nextFrame.getFirstThrow();
+				}
 		}
 		return score;
 	}

@@ -201,3 +201,6 @@ EditAction 1474461299292 BowlingGame.java 786 5 5 0
 RefactoringAction 1474461304662 BowlingException.java ADD long serialVersionUID FIELD
 RefactoringAction 1474461307041 BowlingException.java REMOVE serialVersionUID FIELD
 EditAction 1474461507584 BowlingGame.java 908 5 4 0
+CompilationAction 1474461507671 BowlingGame.java
+CompilationAction 1474461519598 BowlingGame.java
+EditAction 1474461528415 TestBowling.java 1340 6 15 6
