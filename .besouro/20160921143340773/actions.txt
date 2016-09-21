@@ -78,3 +78,5 @@ CompilationAction 1474459183050 TestBowling.java
 CompilationAction 1474459222233 TestBowling.java
 RefactoringAction 1474459254886 BowlingGame.java ADD int score FIELD
 EditAction 1474459326782 BowlingGame.java 650 4 1 0
+CompilationAction 1474459326875 BowlingGame.java
+EditAction 1474459341420 BowlingGame.java 651 4 3 0
