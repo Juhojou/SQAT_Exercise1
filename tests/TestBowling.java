@@ -90,15 +90,17 @@ public class TestBowling {
 	@Test
 	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
-		for (int i=0; i<4; i++) {
-			Frame Frame = new Frame(10,0);
-			game.addFrame(Frame);
-		}
-		for (int k=0; k<6; k++) {
-			Frame Frame = new Frame(1,0);
-			game.addFrame(Frame);
-		}
-		assertEquals(98, game.score());
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(1,0));
+		assertEquals(20, game.score());
 	}
 	
 }
