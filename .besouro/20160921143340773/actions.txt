@@ -68,3 +68,13 @@ RefactoringAction 1474458912024 TestBowling.java ADD void test_firstFrameNoPins(
 RefactoringAction 1474458916036 TestBowling.java RENAME test_firstFrameNoPins()/2=>void test_all() METHOD
 RefactoringAction 1474458922049 TestBowling.java RENAME test_all()=>void test_allFramesNoPoints() METHOD
 EditAction 1474458940490 TestBowling.java 425 2 2 1
+CompilationAction 1474458940575 TestBowling.java
+CompilationAction 1474458940575 TestBowling.java
+FileOpenedAction 1474458969049 Frame.java 729 6 8 0
+CompilationAction 1474458981415 TestBowling.java
+CompilationAction 1474458981598 TestBowling.java
+CompilationAction 1474459182869 TestBowling.java
+CompilationAction 1474459183050 TestBowling.java
+CompilationAction 1474459222233 TestBowling.java
+RefactoringAction 1474459254886 BowlingGame.java ADD int score FIELD
+EditAction 1474459326782 BowlingGame.java 650 4 1 0

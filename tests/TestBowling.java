@@ -12,10 +12,12 @@ public class TestBowling {
 	
 	@Test
 	public void test_allFramesNoPoints() throws BowlingException{
-		for (int i; i<10, i++) {
+		BowlingGame game = new BowlingGame();
+		for (int i=0; i<10; i++) {
 			Frame frame = new Frame(0,0);
+			game.addFrame(frame);
 		}
-		assertEquals(0, frame.score());
+		assertEquals(0, game.score());
 	}
 	
 
