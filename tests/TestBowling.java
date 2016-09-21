@@ -95,7 +95,7 @@ public class TestBowling {
 			Frame Frame = new Frame(10,0);
 			game.addFrame(Frame);
 		}
-		for (int i=0; i<6; i++) {
+		for (int i=0; i<5; i++) {
 			Frame Frame = new Frame(1,0);
 			game.addFrame(Frame);
 		}
