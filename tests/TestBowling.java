@@ -88,19 +88,19 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_FirstFourFramesAreStrikeOthersGotZeroPoints() throws BowlingException{
+	public void test_FirstFourFramesAreStrikeOthersGotZero() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(0,0));
 		game.addFrame(new Frame(0,0));
 		game.addFrame(new Frame(0,0));
 		game.addFrame(new Frame(0,0));
 		game.addFrame(new Frame(0,0));
 		game.addFrame(new Frame(0,0));
-		game.addFrame(new Frame(0,0));
-		assertEquals(90, game.score());
+		assertEquals(98, game.score());
 	}
 	
 }
