@@ -6,12 +6,12 @@ import org.junit.Test;
 public class TestBowling {
 	
 	@Test (expected=BowlingException.class)
-	public void test_firstFrameNoPins(){
+	public void test_firstFrameNoPins() throws BowlingException{
 		Frame Frame = new Frame(0,0);
 		assertEquals(0, Frame.score());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_gameHasTenFrames() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<10; i++) {
@@ -21,7 +21,7 @@ public class TestBowling {
 		assertEquals(10, game.amountOfFrames());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_allFramesGotZeroPoints() throws BowlingException{
 		BowlingGame Game = new BowlingGame();
 		for (int i=0; i<10; i++) {
@@ -31,7 +31,7 @@ public class TestBowling {
 		assertEquals(0, Game.score());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_allFramesGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<10; i++) {
@@ -41,19 +41,19 @@ public class TestBowling {
 		assertEquals(10, game.score());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_isFirtsFrameSpare() throws BowlingException{
 		Frame Frame = new Frame(5,5);
 		assertEquals(true, Frame.isSpare());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_isFirtsFrameStrike() throws BowlingException{
 		Frame Frame = new Frame(5,5);
 		assertEquals(false, Frame.isStrike());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_firstFrameIsSpareRestFramesGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		Frame FirstFrame = new Frame(5,5);
@@ -64,7 +64,7 @@ public class TestBowling {
 		}
 		assertEquals(20, game.score());
 	}
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_allFramesAreSparesExceptLastFrameGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<9; i++) {
@@ -76,7 +76,7 @@ public class TestBowling {
 		assertEquals(132, game.score());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_FirstFrameIsStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		Frame FirstFrame = new Frame(10,0);
@@ -88,7 +88,7 @@ public class TestBowling {
 		assertEquals(20, game.score());
 	}
 	
-	@Test (expected=BowlingException.class)
+	@Test
 	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<4; i++) {
