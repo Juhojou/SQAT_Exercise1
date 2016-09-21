@@ -204,3 +204,12 @@ EditAction 1474461507584 BowlingGame.java 908 5 4 0
 CompilationAction 1474461507671 BowlingGame.java
 CompilationAction 1474461519598 BowlingGame.java
 EditAction 1474461528415 TestBowling.java 1340 6 15 6
+RefactoringAction 1474461533071 TestBowling.java ADD void test_allFramesGotOnePoint()/2 METHOD
+RefactoringAction 1474461540098 TestBowling.java RENAME test_allFramesGotOnePoint()/2=>void test_gameHast() METHOD
+RefactoringAction 1474461541609 TestBowling.java RENAME test_gameHast()=>void test_gameHas() METHOD
+RefactoringAction 1474461546125 TestBowling.java RENAME test_gameHas()=>void test_first() METHOD
+RefactoringAction 1474461550140 TestBowling.java RENAME test_first()=>void test_firstFrameIsSpare() METHOD
+RefactoringAction 1474461552654 TestBowling.java RENAME test_firstFrameIsSpare()=>void test_firstFrameIsSpareRestAre() METHOD
+RefactoringAction 1474461557167 TestBowling.java RENAME test_firstFrameIsSpareRestAre()=>void test_firstFrameIsSpareRestFramesGot() METHOD
+RefactoringAction 1474461559681 TestBowling.java RENAME test_firstFrameIsSpareRestFramesGot()=>void test_firstFrameIsSpareRestFramesGotOnePoint() METHOD
+EditAction 1474461610908 TestBowling.java 1669 7 20 7
