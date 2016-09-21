@@ -443,3 +443,6 @@ UnitTestSessionAction 1474463816134 TestBowling.java FAIL
 RefactoringAction 1474463823715 TestBowling.java ADD void test_asd() METHOD
 RefactoringAction 1474463825227 TestBowling.java REMOVE test_asd() METHOD
 EditAction 1474463836005 Frame.java 701 6 7 0
+UnitTestCaseAction 1474463836988 TestBowling.java FAIL
+UnitTestSessionAction 1474463836988 TestBowling.java FAIL
+EditAction 1474463843376 Frame.java 679 6 7 0
