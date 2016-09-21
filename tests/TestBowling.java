@@ -90,7 +90,7 @@ public class TestBowling {
 	@Test
 	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
-		for (int i=0; i<10; i++) {
+		for (int i=0; i<4; i++) {
 			Frame Frame = new Frame(10,0);
 			game.addFrame(Frame);
 		}
