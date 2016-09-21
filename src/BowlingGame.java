@@ -41,7 +41,7 @@ public class BowlingGame {
 		return score;
 	}
 
-	private void scoreIfSpare(int k, Frame Frame) {
+	public void scoreIfSpare(int k, Frame Frame) {
 		if (Frame.isSpare()){
 			Frame NextFrameForSpare = frames.get(k+1);
 			score = score + NextFrameForSpare.getFirstThrow();
