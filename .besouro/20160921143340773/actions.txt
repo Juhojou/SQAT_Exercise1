@@ -3,3 +3,15 @@ RefactoringAction 1474457858338 Frame.java ADD int sc FIELD
 RefactoringAction 1474457861850 Frame.java RENAME sc=>int scorePoints FIELD
 EditAction 1474457947725 BowlingGame.java 623 4 1 0
 EditAction 1474458027927 Frame.java 729 6 8 0
+RefactoringAction 1474458051609 TestBowling.java RENAME test()=>void test_() METHOD
+RefactoringAction 1474458053617 TestBowling.java RENAME test_()=>void test_first() METHOD
+RefactoringAction 1474458056627 TestBowling.java RENAME test_first()=>void test_firstFrameIs() METHOD
+RefactoringAction 1474458060637 TestBowling.java RENAME test_firstFrameIs()=>void test_firstFrame() METHOD
+RefactoringAction 1474458062647 TestBowling.java RENAME test_firstFrame()=>void test_firstFrameNoPins() METHOD
+RefactoringAction 1474458119771 TestBowling.java ADD void AssertEqual() METHOD
+RefactoringAction 1474458121798 TestBowling.java REMOVE AssertEqual() METHOD
+RefactoringAction 1474458143140 TestBowling.java RENAME test_firstFrameNoPins()=>void test_firstFrameNoPins(Object) METHOD
+RefactoringAction 1474458144882 TestBowling.java RENAME test_firstFrameNoPins(Object)=>void test_firstFrameNoPins() METHOD
+RefactoringAction 1474458155692 TestBowling.java ADD void AssertEqual(String, int, int) METHOD
+RefactoringAction 1474458157422 TestBowling.java REMOVE AssertEqual(String, int, int) METHOD
+EditAction 1474458251753 TestBowling.java 206 1 2 1
