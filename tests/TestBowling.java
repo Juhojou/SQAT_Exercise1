@@ -1,8 +1,15 @@
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class TestBowling {
+	
+	@Before
+	public void beforeEachTest(){
+		BowlingGame game = new BowlingGame();
+	}
+	
 
 	@Test
 	public void test_firstFrameNoPins() throws BowlingException{

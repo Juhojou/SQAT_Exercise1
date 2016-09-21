@@ -130,3 +130,6 @@ CompilationAction 1474459783051 TestBowling.java
 UnitTestCaseAction 1474459784011 TestBowling.java FAIL
 UnitTestSessionAction 1474459784011 TestBowling.java FAIL
 EditAction 1474459788306 TestBowling.java 753 3 8 3
+RefactoringAction 1474459831037 TestBowling.java ADD import org.junit.Before IMPORT
+RefactoringAction 1474459865679 TestBowling.java ADD void beforeEachTest() METHOD
+EditAction 1474459879914 TestBowling.java 872 4 9 3
