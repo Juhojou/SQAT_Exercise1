@@ -7,7 +7,7 @@ public class TestBowling {
 	@Test
 	public void test_firstFrameNoPins() {
 		Frame frame = new Frame(0,0);
-		assertEquals(1, frame.score());
+		assertEquals(0, frame.score());
 	}
 
 }
