@@ -250,3 +250,4 @@ UnitTestSessionAction 1474462066567 TestBowling.java OK
 RefactoringAction 1474462071280 TestBowling.java ADD void test_allFramesAreSparesExceptLastFrameGetOnePoint() METHOD
 EditAction 1474462074591 TestBowling.java 1951 8 23 8
 EditAction 1474462100633 TestBowling.java 2017 8 25 8
+EditAction 1474462125852 TestBowling.java 2018 8 25 8
