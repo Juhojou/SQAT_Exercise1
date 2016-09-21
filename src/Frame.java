@@ -20,7 +20,7 @@ public class Frame {
 	public int score(){
 		frameScore = firstThrow + secondThrow;
 		if (isSpare() == true){
-			return 0;
+			frameScore = 
 		}
 			
 		return frameScore;
@@ -35,7 +35,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		if (score() == 10)
+		if (score() == 10 && getFirstThrow() != 10)
 			return true;
 		return false;
 	}
