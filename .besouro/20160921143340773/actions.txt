@@ -242,3 +242,6 @@ RefactoringAction 1474462040190 TestBowling.java RENAME test_allFramesAreSparesE
 EditAction 1474462052468 TestBowling.java 1952 8 23 8
 RefactoringAction 1474462056226 TestBowling.java REMOVE test_allFramesAreSparesExceptLastFrameGetOnePoint() METHOD
 EditAction 1474462057623 TestBowling.java 1678 7 20 7
+UnitTestCaseAction 1474462058804 TestBowling.java OK
+UnitTestSessionAction 1474462058805 TestBowling.java OK
+EditAction 1474462065422 TestBowling.java 1681 7 20 7

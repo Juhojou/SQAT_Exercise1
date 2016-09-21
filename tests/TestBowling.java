@@ -58,7 +58,7 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		Frame FirstFrame = new Frame(5,5);
 		game.addFrame(FirstFrame);
-		for (int i=0; i<9; i++) {
+		for (int i=0; i<1009; i++) {
 			Frame Frame = new Frame(1,0);
 			game.addFrame(Frame);
 		}
