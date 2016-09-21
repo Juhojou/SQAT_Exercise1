@@ -191,3 +191,7 @@ EditAction 1474460853764 BowlingGame.java 786 5 5 0
 EditAction 1474460922737 Frame.java 766 6 10 0
 EditAction 1474461024267 Frame.java 816 6 11 0
 EditAction 1474461148317 Frame.java 845 6 8 0
+CompilationAction 1474461148634 Frame.java
+RefactoringAction 1474461176076 Frame.java ADD int spareScore() METHOD
+RefactoringAction 1474461198609 Frame.java ADD int spareScore FIELD
+EditAction 1474461199739 Frame.java 872 7 11 0
