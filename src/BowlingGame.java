@@ -31,7 +31,6 @@ public class BowlingGame {
 	public int score(){
 		for (int k=0; k<10; k++){
 			Frame Frame = frames.get(k);
-			
 			if (Frame.isSpare()){
 				Frame NextFrameForSpare = frames.get(k+1);
 				score = score + NextFrameForSpare.getFirstThrow();
