@@ -24,7 +24,7 @@ public class Frame {
 	
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		return (getFirstThrow() == 10);
+		return true;
 	}
 	
 	//return whether a frame is a spare or not
