@@ -49,7 +49,7 @@ public class TestBowling {
 	@Test
 	public void test_isFirtsFrameStrike() throws BowlingException{
 		Frame frame = new Frame(5,5);
-		assertEquals(true, frame.isStrike());
+		assertEquals(false, frame.isStrike());
 	}
 
 }

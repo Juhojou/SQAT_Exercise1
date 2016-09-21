@@ -180,3 +180,4 @@ RefactoringAction 1474460640382 TestBowling.java RENAME test_isFirtsFrameSpare()
 RefactoringAction 1474460643895 TestBowling.java RENAME test_isFirtsFrame()=>void test_isFirtsFrameStri() METHOD
 RefactoringAction 1474460644907 TestBowling.java RENAME test_isFirtsFrameStri()=>void test_isFirtsFrameStrike() METHOD
 EditAction 1474460650449 TestBowling.java 1336 6 15 6
+EditAction 1474460654897 TestBowling.java 1337 6 15 6
