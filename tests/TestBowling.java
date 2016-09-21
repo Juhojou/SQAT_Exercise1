@@ -88,7 +88,7 @@ public class TestBowling {
 		assertEquals(20, game.score());
 	}
 	
-	@Test
+	@Test (expected=BowlingException.class)
 	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<4; i++) {
