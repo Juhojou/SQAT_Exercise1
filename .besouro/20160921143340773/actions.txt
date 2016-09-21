@@ -81,3 +81,14 @@ EditAction 1474459326782 BowlingGame.java 650 4 1 0
 CompilationAction 1474459326875 BowlingGame.java
 EditAction 1474459341420 BowlingGame.java 651 4 3 0
 EditAction 1474459373237 BowlingGame.java 598 4 2 0
+RefactoringAction 1474459378081 TestBowling.java RENAME test_allFramesNoPoints()=>void test_allFrames() METHOD
+RefactoringAction 1474459379592 TestBowling.java RENAME test_allFrames()=>void test_allFrame() METHOD
+RefactoringAction 1474459382102 TestBowling.java RENAME test_allFrame()=>void test_game() METHOD
+RefactoringAction 1474459383615 TestBowling.java RENAME test_game()=>void test_gameHas10() METHOD
+RefactoringAction 1474459385125 TestBowling.java RENAME test_gameHas10()=>void test_gameHas10Frames() METHOD
+RefactoringAction 1474459387635 TestBowling.java RENAME test_gameHas10Frames()=>void test_gameHasTen() METHOD
+RefactoringAction 1474459389146 TestBowling.java RENAME test_gameHasTen()=>void test_gameHasTenFrames() METHOD
+RefactoringAction 1474459460226 BowlingGame.java ADD void amountOf FIELD
+RefactoringAction 1474459461739 BowlingGame.java RENAME amountOf=>void amountOfFrames FIELD
+RefactoringAction 1474459463253 BowlingGame.java RENAME amountOfFrames=>void amountOfFrames() METHOD
+EditAction 1474459488653 BowlingGame.java 683 5 4 0
