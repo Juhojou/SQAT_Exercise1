@@ -39,3 +39,6 @@ EditAction 1474458620834 TestBowling.java 253 1 2 1
 UnitTestCaseAction 1474458628188 TestBowling.java FAIL
 UnitTestSessionAction 1474458628188 TestBowling.java FAIL
 EditAction 1474458633295 TestBowling.java 218 1 2 1
+UnitTestCaseAction 1474458634396 TestBowling.java OK
+UnitTestSessionAction 1474458634397 TestBowling.java OK
+EditAction 1474458680079 TestBowling.java 276 1 2 1
