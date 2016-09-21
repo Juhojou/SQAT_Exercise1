@@ -6,7 +6,7 @@ import org.junit.Test;
 public class TestBowling {
 	
 	@Test (expected=BowlingException.class)
-	public void test_firstFrameNoPins() throws BowlingException{
+	public void test_firstFrameNoPins(){
 		Frame Frame = new Frame(0,0);
 		assertEquals(0, Frame.score());
 	}
@@ -88,6 +88,18 @@ public class TestBowling {
 		assertEquals(20, game.score());
 	}
 	
-	
+	@Test (expected=BowlingException.class)
+	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		for (int i=0; i<4; i++) {
+			Frame Frame = new Frame(10,0);
+			game.addFrame(Frame);
+		}
+		for (int k=0; k<6; k++) {
+			Frame Frame = new Frame(1,0);
+			game.addFrame(Frame);
+		}
+		assertEquals(98, game.score());
+	}
 
 }
