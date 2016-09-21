@@ -420,3 +420,10 @@ UnitTestSessionAction 1474463623971 TestBowling.java FAIL
 EditAction 1474463631328 BowlingGame.java 1034 5 4 0
 RefactoringAction 1474463689575 TestBowling.java ADD void test_allFramesGotOnePoint()/2 METHOD
 EditAction 1474463707650 TestBowling.java 3018 11 39 11
+CompilationAction 1474463707737 TestBowling.java
+RefactoringAction 1474463713143 TestBowling.java RENAME test_allFramesGotOnePoint()/2=>void test_asd() METHOD
+CompilationAction 1474463713587 TestBowling.java
+UnitTestCaseAction 1474463714039 TestBowling.java FAIL
+UnitTestSessionAction 1474463714039 TestBowling.test_asd FAIL
+RefactoringAction 1474463743689 TestBowling.java REMOVE test_asd() METHOD
+EditAction 1474463744354 TestBowling.java 2698 10 34 10

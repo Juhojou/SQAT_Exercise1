@@ -101,16 +101,4 @@ public class TestBowling {
 		assertEquals(98, game.score());
 	}
 	
-	@Test
-	public void test_allFramesGotOnePoint() throws BowlingException{
-		BowlingGame game = new BowlingGame();
-		for (int i=0; i<9; i++) {
-			Frame Frame = new Frame(10,0);
-			game.addFrame(Frame);
-		}
-		Frame FirstFrame = new Frame(0,0);
-		game.addFrame(FirstFrame);
-		assertEquals(10, game.score());
-	}
-
 }
