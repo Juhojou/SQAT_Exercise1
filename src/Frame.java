@@ -1,7 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private int scorePoints;
+	private int frameScore;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -18,7 +18,7 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		scorePoints = firstThrow + secondThrow; 
+		frameScore = firstThrow + secondThrow; 
 		return scorePoints;
 	}
 

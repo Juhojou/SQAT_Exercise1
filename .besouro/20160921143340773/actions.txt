@@ -102,3 +102,5 @@ UnitTestCaseAction 1474459514632 TestBowling.java FAIL
 UnitTestSessionAction 1474459514632 TestBowling.java FAIL
 EditAction 1474459518718 TestBowling.java 502 2 5 2
 EditAction 1474459546745 BowlingGame.java 682 5 4 0
+RefactoringAction 1474459590177 Frame.java RENAME scorePoints=>int frameScore FIELD
+EditAction 1474459590886 Frame.java 727 6 8 0
