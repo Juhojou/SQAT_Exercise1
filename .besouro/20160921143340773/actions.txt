@@ -287,3 +287,9 @@ RefactoringAction 1474462538561 TestBowling.java RENAME test_FirstFrameIsStrikeO
 RefactoringAction 1474462540577 TestBowling.java RENAME test_allFramesAreSparesExceptLastFrameGetOnePoint()=>void test_allFramesAreSparesExceptLastFrameGotOnePoint() METHOD
 RefactoringAction 1474462546091 TestBowling.java RENAME test_FirstFrameIsStrikeOthersGot()=>void test_FirstFrameIsStrikeOthersGotOnePoint() METHOD
 EditAction 1474462561660 TestBowling.java 2354 9 30 9
+UnitTestCaseAction 1474462581542 TestBowling.java OK
+UnitTestSessionAction 1474462581542 TestBowling.java OK
+RefactoringAction 1474462587133 TestBowling.java ADD void test_FirstFrameIsStrikeOthersGotOnePoint()/2 METHOD
+RefactoringAction 1474462593148 TestBowling.java RENAME test_FirstFrameIsStrikeOthersGotOnePoint()/2=>void test_FirstFourFrameIsStrikeOthersGotOnePoint() METHOD
+RefactoringAction 1474462598661 TestBowling.java RENAME test_FirstFourFrameIsStrikeOthersGotOnePoint()=>void test_FirstFourFramesAreStrikeOthersGotOnePoint() METHOD
+EditAction 1474462671448 TestBowling.java 2706 10 34 10

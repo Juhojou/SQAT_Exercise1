@@ -87,5 +87,19 @@ public class TestBowling {
 		}
 		assertEquals(20, game.score());
 	}
+	
+	@Test
+	public void test_FirstFourFramesAreStrikeOthersGotOnePoint() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		for (int i=0; i<3; i++) {
+			
+			Frame FirstFrame = new Frame(10,0);
+		}
+		for (int i=0; i<9; i++) {
+			Frame Frame = new Frame(1,0);
+			game.addFrame(Frame);
+		}
+		assertEquals(20, game.score());
+	}
 
 }
