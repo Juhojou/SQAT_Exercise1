@@ -92,3 +92,6 @@ RefactoringAction 1474459460226 BowlingGame.java ADD void amountOf FIELD
 RefactoringAction 1474459461739 BowlingGame.java RENAME amountOf=>void amountOfFrames FIELD
 RefactoringAction 1474459463253 BowlingGame.java RENAME amountOfFrames=>void amountOfFrames() METHOD
 EditAction 1474459488653 BowlingGame.java 683 5 4 0
+CompilationAction 1474459488741 BowlingGame.java
+CompilationAction 1474459493595 BowlingGame.java
+EditAction 1474459507622 TestBowling.java 502 2 5 2

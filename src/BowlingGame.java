@@ -19,7 +19,7 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
-	public void amountOfFrames() {
+	public int amountOfFrames() {
 		int size = frames.size();
 		return size;
 	}
