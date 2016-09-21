@@ -15,3 +15,4 @@ RefactoringAction 1474458144882 TestBowling.java RENAME test_firstFrameNoPins(Ob
 RefactoringAction 1474458155692 TestBowling.java ADD void AssertEqual(String, int, int) METHOD
 RefactoringAction 1474458157422 TestBowling.java REMOVE AssertEqual(String, int, int) METHOD
 EditAction 1474458251753 TestBowling.java 206 1 2 1
+EditAction 1474458319491 TestBowling.java 218 1 2 1
