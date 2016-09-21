@@ -394,3 +394,13 @@ EditAction 1474463440610 TestBowling.java 2756 10 34 10
 UnitTestCaseAction 1474463441710 TestBowling.java FAIL
 UnitTestSessionAction 1474463441710 TestBowling.java FAIL
 EditAction 1474463446558 TestBowling.java 2723 10 34 10
+UnitTestCaseAction 1474463447861 TestBowling.java FAIL
+UnitTestSessionAction 1474463447861 TestBowling.java FAIL
+RefactoringAction 1474463466812 TestBowling.java ADD ExpectedException exception FIELD
+RefactoringAction 1474463469273 TestBowling.java ADD import org.junit.Rule IMPORT
+RefactoringAction 1474463498210 TestBowling.java ADD Class<BowlingException> BowlingException FIELD
+RefactoringAction 1474463500436 TestBowling.java REMOVE BowlingException FIELD
+RefactoringAction 1474463502202 TestBowling.java ADD Class<BowlingException> BowlingException FIELD
+RefactoringAction 1474463504964 TestBowling.java REMOVE BowlingException FIELD
+RefactoringAction 1474463513994 TestBowling.java REMOVE exception FIELD
+EditAction 1474463514475 TestBowling.java 2747 10 34 10
