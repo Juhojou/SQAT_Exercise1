@@ -20,5 +20,14 @@ public class TestBowling {
 		assertEquals(10, game.amountOfFrames());
 	}
 	
+	@Test
+	public void test_allFramesGotZeroPoints() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		for (int i=0; i<10; i++) {
+			Frame frame = new Frame(0,0);
+			game.addFrame(frame);
+		}
+		assertEquals(10, game.score()());
+	}
 
 }

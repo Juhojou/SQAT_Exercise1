@@ -110,3 +110,16 @@ EditAction 1474459626599 BowlingGame.java 690 5 4 0
 EditAction 1474459715269 BowlingGame.java 783 5 4 0
 CompilationAction 1474459715355 BowlingGame.java
 EditAction 1474459722338 BowlingGame.java 783 5 4 0
+CompilationAction 1474459722576 BowlingGame.java
+CompilationAction 1474459729881 BowlingGame.java
+RefactoringAction 1474459737396 TestBowling.java ADD void test_gameHasTenFrames()/2 METHOD
+RefactoringAction 1474459744409 TestBowling.java RENAME test_gameHasTenFrames()/2=>void test_eachFrameenFrames() METHOD
+RefactoringAction 1474459751921 TestBowling.java RENAME test_eachFrameenFrames()=>void test_allFrames() METHOD
+RefactoringAction 1474459754430 TestBowling.java RENAME test_allFrames()=>void test_allFramesGot1() METHOD
+RefactoringAction 1474459756443 TestBowling.java RENAME test_allFramesGot1()=>void test_allFramesGot1Point() METHOD
+RefactoringAction 1474459758957 TestBowling.java RENAME test_allFramesGot1Point()=>void test_allFra() METHOD
+RefactoringAction 1474459760468 TestBowling.java RENAME test_allFra()=>void test_() METHOD
+RefactoringAction 1474459763480 TestBowling.java RENAME test_()=>void test_allFrames() METHOD
+RefactoringAction 1474459766491 TestBowling.java RENAME test_allFrames()=>void test_allFramesGot() METHOD
+RefactoringAction 1474459771003 TestBowling.java RENAME test_allFramesGot()=>void test_allFramesGotZeroPoints() METHOD
+EditAction 1474459779420 TestBowling.java 756 3 5 2
