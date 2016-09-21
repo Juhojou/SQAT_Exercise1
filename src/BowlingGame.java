@@ -38,8 +38,7 @@ public class BowlingGame {
 				}
 			else if (Frame.isStrike()){
 				Frame NextFrameForStrike = frames.get(k+1);
-					
-				}
+				score = score + NextFrameForStrike.score();
 			}
 		}
 		return score;

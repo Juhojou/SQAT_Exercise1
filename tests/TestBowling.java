@@ -65,7 +65,7 @@ public class TestBowling {
 		assertEquals(20, game.score());
 	}
 	@Test
-	public void test_allFramesAreSparesExceptLastFrameGetOnePoint() throws BowlingException{
+	public void test_allFramesAreSparesExceptLastFrameGotOnePoint() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		for (int i=0; i<9; i++) {
 			Frame Frame = new Frame(5,5);
@@ -74,6 +74,18 @@ public class TestBowling {
 		Frame LastFrame = new Frame(1,0);
 		game.addFrame(LastFrame);
 		assertEquals(132, game.score());
+	}
+	
+	@Test
+	public void test_FirstFrameIsStrikeOthersGotOnePoint() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame FirstFrame = new Frame(10,0);
+		game.addFrame(FirstFrame);
+		for (int i=0; i<9; i++) {
+			Frame Frame = new Frame(1,0);
+			game.addFrame(Frame);
+		}
+		assertEquals(20, game.score());
 	}
 
 }

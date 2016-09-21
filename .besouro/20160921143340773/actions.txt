@@ -275,3 +275,15 @@ EditAction 1474462361440 BowlingGame.java 887 5 4 0
 UnitTestCaseAction 1474462363012 TestBowling.java OK
 UnitTestSessionAction 1474462363013 TestBowling.java OK
 EditAction 1474462461105 BowlingGame.java 1004 5 3 0
+CompilationAction 1474462461176 BowlingGame.java
+CompilationAction 1474462511895 BowlingGame.java
+UnitTestCaseAction 1474462516412 TestBowling.java OK
+UnitTestSessionAction 1474462516413 TestBowling.java OK
+RefactoringAction 1474462523010 TestBowling.java ADD void test_allFramesAreSparesExceptLastFrameGetOnePoint()/2 METHOD
+RefactoringAction 1474462527521 TestBowling.java RENAME test_allFramesAreSparesExceptLastFrameGetOnePoint()/2=>void test_() METHOD
+RefactoringAction 1474462529535 TestBowling.java RENAME test_()=>void test_First() METHOD
+RefactoringAction 1474462534049 TestBowling.java RENAME test_First()=>void test_FirstFrameIsStrikeOthers() METHOD
+RefactoringAction 1474462538561 TestBowling.java RENAME test_FirstFrameIsStrikeOthers()=>void test_FirstFrameIsStrikeOthersGot() METHOD
+RefactoringAction 1474462540577 TestBowling.java RENAME test_allFramesAreSparesExceptLastFrameGetOnePoint()=>void test_allFramesAreSparesExceptLastFrameGotOnePoint() METHOD
+RefactoringAction 1474462546091 TestBowling.java RENAME test_FirstFrameIsStrikeOthersGot()=>void test_FirstFrameIsStrikeOthersGotOnePoint() METHOD
+EditAction 1474462561660 TestBowling.java 2354 9 30 9
