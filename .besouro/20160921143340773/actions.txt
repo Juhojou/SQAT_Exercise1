@@ -462,3 +462,7 @@ EditAction 1474463963928 TestBowling.java 2853 10 42 10
 UnitTestCaseAction 1474463965282 TestBowling.java FAIL
 UnitTestSessionAction 1474463965282 TestBowling.java FAIL
 EditAction 1474463971453 TestBowling.java 2853 10 42 10
+UnitTestCaseAction 1474463972480 TestBowling.java FAIL
+UnitTestSessionAction 1474463972480 TestBowling.java FAIL
+RefactoringAction 1474463991417 BowlingGame.java REMOVE scoreIfSpare(int, Frame) METHOD
+EditAction 1474463992493 BowlingGame.java 1034 5 4 0

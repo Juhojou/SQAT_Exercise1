@@ -32,19 +32,15 @@ public class BowlingGame {
 		for (int k=0; k<10; k++){
 			Frame Frame = frames.get(k);
 			score = score + Frame.score();
-			scoreIfSpare(k, Frame);
+			if (Frame.isSpare()){
+				Frame NextFrameForSpare = frames.get(k+1);
+				score = score + NextFrameForSpare.getFirstThrow();
+				}
 			if (Frame.isStrike()){
 				Frame NextFrameForStrike = frames.get(k+1);
 				score = score + NextFrameForStrike.score();
 			}
 		}
 		return score;
-	}
-
-	public void scoreIfSpare(int k, Frame Frame) {
-		if (Frame.isSpare()){
-			Frame NextFrameForSpare = frames.get(k+1);
-			score = score + NextFrameForSpare.getFirstThrow();
-			}
 	}
 }
